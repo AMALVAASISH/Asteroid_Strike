@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroid Strike</title>
+    <!-- Link to your CSS file for styling (if needed) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="popup">
+        <h3>Welcome to</h3>
+        <h1 style="font-weight: bold; color: red;">Asteroid Strike</h1>
+        <h2>Instructions</h2>
+        <p>Use the arrow keys or w key to move the player.</p>
+        <p>Press the Space key to rotate clockwise, and the V key to rotate counterclockwise.</p>
+        <p>Press the S key to shoot asteroids.</p>
+    </div>
+<style>
+    body{
+        margin: 0;
+    }
+    #popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px;
+            background-color: #1a1a1a; /* Dark background color */
+            border: 4px solid #ffffff; /* White border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Add a subtle shadow */
+            z-index: 1000; /* Ensure the pop-up is on top of other elements */
+            text-align: center; /* Center-align text */
+            color: #ffffff; /* White text color */
+        }
+        h2 {
+            margin-top: 0; /* Remove default margin for h2 */
+        }
+        p {
+            margin-bottom: 15px; /* Add some space between paragraphs */
+        }
+</style>
+
+
+<canvas></canvas>
+<script src="./index.js">
+    
+</script>
+
+
+
+</body>
