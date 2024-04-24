@@ -459,7 +459,6 @@ popupWindow.classList.add('popup');
 popupWindow.innerHTML = `
     <div class="popup-content">
         <p>Game Over</p>
-        <p>Your score: <span id="score">0</span></p>
         <button id="refreshButton">Restart</button>
     </div>
 `;
